@@ -1,0 +1,73 @@
+body {
+    font-family: cursive;
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+    padding: 2rem;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align:  center;
+    margin: 2rem;
+  }
+  
+  input {
+    width: 90%;
+    outline: none;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    border-radius: .5rem;
+  }
+  
+  button {
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem;
+    border: 1px solid grey;
+    background: slategray;
+    color: white;
+    border-radius: .5rem;
+    margin: .5rem auto;
+    width: 40%;
+  }
+  
+  .todoWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    padding: .5rem;
+    align-items: center;
+    width: 100%;
+    margin:  .5rem auto;
+    color: black;
+  
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon {
+    font-size: 1rem;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .danger {color: red;}
